@@ -1,3 +1,67 @@
 /* Sammy's Stylesheet */
 
-h1 {color: steelblue}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallup.net/wp-content/uploads/2016/07/20/36843-General.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Comic Sans MS";
+    color: white;
+
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+ 
+  }
+
+  p {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+ 
+  }
+ 
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+    color: white;
+    font-size: 0.9em;
+  }
+  
+  img {
+    width: 200px;  /* Adjust size */
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
